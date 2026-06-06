@@ -1,0 +1,25 @@
+/* 🎨 CATEGORY PAGE CSS */
+
+#productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+}
+
+/* CIRCLE IMAGE */
+.product-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
